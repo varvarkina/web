@@ -1,0 +1,647 @@
+body{
+    position: static;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+}
+
+.background {
+    max-width: 100%;
+    /* height: 100vh; */
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+header{
+    height: 74px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header__inner{
+    position: relative;
+    height: 40px;
+    width: 940px;
+    top: 17px; 
+    margin: auto;
+}
+
+.logo{
+    position: absolute;
+    height: 26px;
+    width: 92px;
+    margin: 0;
+    top: 3px;
+} 
+
+.nav{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-align: left;
+
+    width: 376.61px;
+    height: 40px;
+    left: 563.39px;
+    margin: 0;
+    top: 0;
+}
+
+.header__menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home, .categories, .about, .contact{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}    
+
+.home{
+    margin: 0;
+    left: 19.61px;
+}
+
+.categories{
+    margin: 0 0 0 41px;
+}
+
+.about{
+    margin: 40px 40px;
+}
+
+.contact{
+    margin: 0;
+}
+
+/* main{
+    height: auto;
+} */
+
+.banner{
+    position: relative;
+    top: 100px;
+    bottom: 0;
+    width: 940px;
+    height: 159px;
+    margin: 0 auto;
+    /* padding: 0px, 218px, 75px, 218px; */
+}
+
+.title{
+    /* Let's do it together. */
+    position: absolute;
+    width: 498px;
+    height: 51px;
+    left: calc(50% - 498px/2);
+    top: -7px;
+    margin: 0;
+
+    font-family: 'Lora', normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;  
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+    font-family: 'Lora';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.subtitle{
+    /* We travel the world in search of stories. Come along for the ride. */
+    position: absolute;
+    width: 504px;
+    height: 20px;
+    left: calc(50% - 504px/2);
+    top: 64px;
+    margin: 0;
+
+    font-family: 'Oxygen', normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFFA1;
+}   
+
+.button{
+    /* View Latest Posts */
+    position: relative;
+    width: 167px;
+    height: 44px;
+    left: calc(50% - 167px/2 + 0.5px);
+    top: 115px;
+    bottom: 0;
+    background: #DD783F;
+    border-radius: 3px;
+} 
+
+.button__text{   
+    width: 105px;
+    height: 20px;
+    padding: 12px 31px;
+    margin: 0;
+    font-family: 'Oxygen', normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#main__nav{
+    position: absolute;
+    height: 65px;
+    top: 500px;
+    margin: auto;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.main-navigation-menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 65px;
+    padding-inline: 0;
+    width: 960px;
+    position: relative;
+    margin: auto;
+}
+
+.menu-box{
+    position: relative;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    top: 22px;
+    width: 47px;
+    padding-top: 22px;
+    padding-bottom: 23px;
+    text-decoration: none;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    text-align: center;    
+    color: #768088;
+}
+
+.main__background{
+    background: #F7F7F7;
+    margin-top: 332px;
+    margin-bottom: 0%;
+    padding: 0;
+    /* height: 1255px; */
+    /* position: relative;*/
+}
+
+/* Featured Posts */
+.featured{
+    width: 940px;
+    position: relative;
+    /* height: 414px; */
+    margin: auto;
+}
+
+.headline{
+    position: relative;
+    height: 44px;
+    width: 940px;
+    padding-top: 67px;
+}
+
+.featured-posts{
+    position: relative;
+    width: 161px;
+    height: 27px;
+    left: calc(50% - 161px/2 + 0.5px);
+    margin: 0;
+    top: 0;
+    
+    font-family: 'Oxygen', normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.line{
+    position: relative;
+    height: 1px;
+    width: 188px;
+    left: 40%;
+    right: 40%;
+    top: 16px;
+    background: #DEDEDE;
+    border-radius: 0px;
+}
+
+.featured-pics{
+    position: relative;
+    width: 940px;
+    margin: auto;
+    top: 16px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-bottom: 60pxs;
+}
+
+.featured-pics__element{
+    height: 294px;
+}
+
+.featured__pic{
+    border-radius: 3px;
+    height: 280px;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.featured__posts{    
+    display: inline-block;
+    top: 7px;
+    border-radius: 3px; 
+    position: relative;
+    width: 460px;
+    height: 280px;
+}
+
+.featured-posts__adventure1{
+    z-index: -5;
+}   
+
+.featured-posts__adventure1, .featured-posts__adventure2{
+    position: absolute;
+    background: #DD783F;
+    border-radius: 2px;
+    width: 69px;
+    margin-top: 27px;
+    margin-left: -440px;
+    padding-top: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 7px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.featured-posts__inner{
+    position: absolute;
+    height: 119px;
+    width: 460px;
+    margin-top: -181px;
+}
+
+.featured-posts__title{
+    /* The Road Ahead 
+    From Top Down*/
+    position: absolute;
+    height: 30px;
+    left: 4.35%;
+    right: 51.3%;
+    top: 58px;
+    margin: 0;
+
+    text-decoration: none;
+    font-family: 'Lora', normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.featured-posts__subtitle{
+    /* The road ahead might be paved - it might not be. 
+    Once a year, go someplace you’ve never been before.*/
+    position: absolute;
+    height: 25px;
+    left: 4.35%;
+    right: 26.96%;
+    top: 94px;
+    margin: 0;
+
+    font-family: 'Oxygen', normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFFB2;
+    white-space: nowrap;
+}
+
+.featured-posts__sign{
+    position: relative;
+    height: 35px;
+    max-width: 420px;
+    margin-left: 4.35%;
+    margin-right: 4.35%;
+    margin-top: -50px;
+}
+
+.featured-posts__man-photo, .recent__man-photo{
+    position: relative;
+    height: 26px;
+    width: 26px;
+    top: 5px;
+    background-size: cover;
+    border-radius: 60px;
+}
+
+.featured-posts__man-name, .recent__man-name{
+    position: absolute;
+    height: 35px;
+    top: 0;
+    margin: 0;
+    left: 36px;
+    font-family: 'Oxygen', normal;
+    font-weight: 400;
+    line-height: 35px;
+    color: #FFFFFFB2; 
+    text-decoration: none;  
+    font-size: 12px;
+}   
+
+.featured-posts__data{
+    position: absolute;
+    height: 35px;
+    top: 0px;
+    margin: 0;
+    left: 312px;
+    font-family: 'Oxygen', normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: #FFFFFFB2;
+    overflow: visible;
+}
+
+#recent{
+    position: relative;
+    /* height: 752px; */
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.recent__title{
+    /* Most Recent */
+    position: relative;
+    width: 136px;
+    height: 27px;
+    left: calc(50% - 136px/2);
+    top: 0px;
+    margin: 0;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.recent__pics{
+    position: relative;
+    width: 960px;
+    /* height: 632px; */
+    /* top: 120px; */
+    left: -10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.recent__post{
+    position: relative;
+    max-width: 296px;
+    height: 291px;
+    padding-top: 25px;
+}
+
+.recent-post__picture{
+    position: relative;
+    width: 295.98px;
+    height: 150px;
+    object-fit: cover;
+    bottom: 0;
+}
+
+.recent-post__text{
+    position: relative;
+    width: 296px;
+    height: 93px;
+    top: -4px;
+    bottom: 0;
+    background: #FFFFFF;
+}
+
+.recent-post__title{
+    /* Still Standing Tall */
+    position: relative;
+    left: 4.39%;
+    right: 50.68%;
+    top: 14px;
+    max-width: 90%;
+
+    text-decoration: none;
+    font-family: 'Lora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #101315;
+}
+
+.recent-post__subtitle{
+    /* Life begins at the end of your comfort zone. */
+    position: absolute;
+    height: 19px;
+    width: 270px;
+    left: 4.39%;
+    right: 9.46%;
+    top: 41px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A7A7A;
+}
+
+.featured-posts-subtitle__href{
+    color: #FFFFFFB2;
+    text-decoration: none;
+}
+
+.recent-post__line{
+    position: relative;
+    height: 1px;
+    width: 295.98px;
+    background: #EFEFEF;
+}
+
+.recent-post__sign{
+    position: relative;
+    height: 48px;
+    width: 296px;
+    background: #FCFCFC;
+    top: -3.5px;
+    border-radius: 0px;
+}
+
+.recent__man-photo{
+    top: 12px;
+    left: 13px;    
+}
+
+.recent__man-name{
+    position: absolute;
+    left: 49px;
+    top: 7px;
+    color: #999999;
+}
+
+.data-number{
+    /* 9/25/2015 */
+    position: absolute;
+    left: 76.01%;
+    right: 4.39%;
+    top: 7px;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: #999999;
+}
+
+/* --------------------------
+/* footer */
+
+footer{
+    position: relative;
+    height: 89px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: url(../images/footer.png) #232F3899;
+    background-blend-mode: multiply;
+}
+
+.footer__inner{
+    position: relative;
+    height: 34px;
+    width: 960px;
+    top: 28px; 
+    bottom: 0;
+    margin: auto;
+}
+
+.nav_bottom{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: right;
+
+    position: relative;
+    width: 377px;
+    height: 34px;
+    left: 563px;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.footer__menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+/* html{
+    min-height: fit-content;
+} */
+
+.home_bottom, .categories_bottom, .about_bottom, .contact_bottom{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF99;
+    top: 4px;
+    position: relative;
+    height: 26px;
+}    
+
+.home_bottom{
+    margin: 0;
+    left: 19.61px;
+}
+
+.categories_bottom{
+    margin: 0 0 0 38px;
+}
+
+.about_bottom{
+    margin: 20px 20px;
+}
+
+.contact_bottom{
+    margin: 0;
+}

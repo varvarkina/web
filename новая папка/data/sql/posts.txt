@@ -1,0 +1,19 @@
+INSERT INTO
+	post (
+		title,
+		subtitle,
+		author,
+		author_url,
+		publish_date,
+		image_url,
+		featured
+	) 
+VALUES (
+	'Still Standing Tall',
+	'Life begins at the end of your comfort zone.',
+	'William Wong', 
+	'http://localhost:8001/images/man2.jpg',
+	'1443139200', 
+	'http://localhost:8001/images/balloons.jpg', 
+	0
+);

@@ -1,0 +1,234 @@
+body{
+    position: static;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: static;
+    height: 74px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header__inner{
+    position: relative;
+    height: 40px;
+    width: 940px;
+    top: 17px; 
+    margin: auto;
+}
+
+.logo{
+    position: relative;
+    height: 26px;
+    width: 92px;
+    margin: 0;
+    top: 3px;
+} 
+
+.nav{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-align: left;
+
+    width: 376.61px;
+    height: 40px;
+    left: 563px;
+    margin: 0;
+    top: 0;
+}
+
+.header__menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home, .categories, .about, .contact{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2E2E2E;
+    /* top: 10px;
+    position: relative;
+    height: 20px;
+    width: 39px; */
+}    
+
+.home{
+    margin: 0;
+    left: 20px;
+}
+
+.categories{
+    margin: 0 0 0 41px;
+}
+
+.about{
+    margin: 40px 40px;
+}
+
+.contact{
+    margin: 0;
+}
+
+.inner{
+    position: relative;
+    width: 940px;
+    height: 159px;
+    top: 89px;
+    margin: auto;
+    padding: 0px, 218px, 75px, 218px;
+}
+
+/* The Road Ahead */
+.title{
+    position: absolute;
+    width: 498px;
+    height: 51px;
+    left: calc(50% - 498px/2);
+    top: -7px;
+    margin: 0;
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    /* identical to box height, or 102% */
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color: #2E2E2E;
+}
+
+ /* The road ahead might be paved - it might not be. */
+.subtitle{
+    position: absolute;
+    width: 504px;
+    height: 20px;
+    left: calc(50% - 504px/2);
+    top: 64px;
+    margin: 0;
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+    text-align: center;
+    
+    color: #2E2E2EA1;
+}   
+
+.img1{
+    position: relative;
+    border-width: 0cqb;
+    width: 100%;
+    top: 117px;
+}
+
+.text{
+    position: relative;
+    /* top: 100px; */
+    bottom: 0;
+    /* height: 1706px; */
+    /* padding-bottom: 120px; */
+    padding: 60px;
+    background: #F7F7F7;
+}
+
+.text__inner{
+    position: relative;
+    max-width: 960px;
+    /* height: 1496px; */
+    margin: 0 auto;
+    /* top: 140px; */
+    padding-top: 60px;
+    background-color: #F7F7F7;
+
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+    /* padding-bottom: 120px; */
+    color: #101315;
+}
+
+footer{
+    position: relative;
+    height: 89px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    /* top: 100px; */
+    background: url(../images/footer.png) #232F3899;
+    background-blend-mode: multiply;
+}
+
+.footer__inner{
+    position: relative;
+    height: 34px;
+    width: 960px;
+    top: 28px; 
+    margin: auto;
+}
+
+.nav_bottom{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-align: right;
+
+    position: absolute;
+    width: 377px;
+    height: 34px;
+    left: 563px;
+    margin: 0;
+    top: 0;
+}
+
+.footer__menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.home_bottom, .categories_bottom, .about_bottom, .contact_bottom{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF99;
+    top: 4px;
+    position: relative;
+    height: 26px;
+}    
+
+.home_bottom{
+    margin: 0;
+    left: 19.61px;
+}
+
+.categories_bottom{
+    margin: 0 0 0 38px;
+}
+
+.about_bottom{
+    margin: 20px 20px;
+}
+
+.contact_bottom{
+    margin: 0;
+}
